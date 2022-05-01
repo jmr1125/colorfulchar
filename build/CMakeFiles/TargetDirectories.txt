@@ -1,0 +1,4 @@
+/home/jiangmingrui/桌面/cmake/colorfulABC/build/CMakeFiles/rebuild_cache.dir
+/home/jiangmingrui/桌面/cmake/colorfulABC/build/CMakeFiles/edit_cache.dir
+/home/jiangmingrui/桌面/cmake/colorfulABC/build/CMakeFiles/test.dir
+/home/jiangmingrui/桌面/cmake/colorfulABC/build/CMakeFiles/ccl.dir

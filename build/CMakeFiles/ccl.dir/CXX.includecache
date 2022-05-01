@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/jiangmingrui/桌面/cmake/colorfulABC/main.cpp
+mainlib.cpp
+/home/jiangmingrui/桌面/cmake/colorfulABC/mainlib.cpp
+
+/home/jiangmingrui/桌面/cmake/colorfulABC/mainlib.cpp
+string
+-
+sstream
+-
+
