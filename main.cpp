@@ -50,8 +50,22 @@ int ColorChar::show(){
 	//printf("%s\n",s.c_str());
 	return printf(s.c_str(),c);
 };
+void ColorChar::setc(char c){
+	this->c=c;
+}
 
 int show(char c,int font = 8 ,int background = 8,int attr = 0){
 	ColorChar ch(c,font,background,attr);
 	return ch.show();
+}
+
+int show(const char* c,size_t len,int font = 8,int background = 8,int attr = 0){
+	int err=0;
+	ColorChar cc(0,font,background,attr);
+	//while(c){
+	for(int i=0;i<=len;++i){
+		cc.setc(*(c+i));
+		err|=cc.show();
+	}
+	return err;
 }
